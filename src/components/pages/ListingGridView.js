@@ -47,7 +47,7 @@ function ListingGridView() {
                                         <div className="page-switcher">
                                             <Link to="/listingListView"><i className="fas fa-list" /></Link>
                                             <Link to="/listingGridView" className="active"><i className="fas fa-th" /></Link>
-                                            <Link to="listing-map-view.html"><i className="fas fa-map-marker-alt" /></Link>
+                                            <Link to="listingMapView"><i className="fas fa-map-marker-alt" /></Link>
                                         </div>
                                         {/* page switcher close */}
                                     </div>

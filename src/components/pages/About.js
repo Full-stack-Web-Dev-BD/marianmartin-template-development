@@ -156,7 +156,7 @@ function About() {
                                 </div>
                             </div>
                             {/* team block close  */}
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-5"><a href="contact.html" className="btn btn-outline-primary">Join our team</a></div>
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-5"><a href="/contact" className="btn btn-outline-primary">Join our team</a></div>
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@ function About() {
                                     <div className="cta-widget-content">
                                         <h3 className="cta-widget-content-title">Looking for space?<br />Start here.</h3>
                                         <p className="cta-widget-content-text">Aliquam erat volutpat. Phasellus blandit sit amet lorem a tincidunt. Fusce vitae ante porttitor, sodales risus eumaximus risusnte tincidunt pretium sed eget nisineque. </p>
-                                        <a href="index.html" className="btn btn-primary">Find space</a>
+                                        <a href="/" className="btn btn-primary">Find space</a>
                                     </div>
                                 </div>
                             </div>

@@ -33,12 +33,12 @@ function LoginModal() {
                                             <label className="custom-control-label" htmlFor="rememberme">Remember Me</label>
                                         </div>
                                         <div className="forgot-password-link">
-                                            <a href="forget-password-page.html"> Forgot Password?</a>
+                                            <a href="/forgetPassword"> Forgot Password?</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="login-form-footer">
-                                    <p className="login-form-footer-text">Don’t have a Spacely account? <a href="register-page.html">Create Account</a> and we’ll set you up so you can list your space.</p>
+                                    <p className="login-form-footer-text">Don’t have a Spacely account?? <a href="/register">Create Account</a> and we’ll set you up so you can list your space.</p>
                                 </div>
                             </div>
                             {/* login form close */}

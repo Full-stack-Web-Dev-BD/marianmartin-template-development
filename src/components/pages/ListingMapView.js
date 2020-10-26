@@ -2,19 +2,17 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Navbar from '../layout/Navbar'
 
-function ListingListView() {
+const ListingMapView = () => {
     return (
         <div>
             <div className="main-wrapper">
-                {/* header start */}
-                <Navbar />
-                {/* pageheader start */}
+                <Navbar/>
                 <div className="pageheader">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="pageheader-caption">
-                                    <h1 className="pageheader-caption-title">Layout Grid &amp; List</h1>
+                                    <h1 className="pageheader-caption-title">Layout map view</h1>
                                     <p className="pageheader-caption-text">Change your layout in grid and list view example using bootstrap 4. Design elements using Bootstrap, javascript, css, and html. ... </p>
                                 </div>
                             </div>
@@ -30,7 +28,7 @@ function ListingListView() {
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">
                                         <li className="breadcrumb-item"><Link to="index.html">Home</Link></li>
-                                        <li className="breadcrumb-item active">Layout Grid &amp; List</li>
+                                        <li className="breadcrumb-item active">Layout map view</li>
                                     </ol>
                                 </nav>
                             </div>
@@ -44,315 +42,130 @@ function ListingListView() {
                             <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                                 <div className="row">
                                     <div className="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 mb-4">
-                                        {/* swich start */}
+                                        {/* swicher start */}
                                         <div className="page-switcher">
-                                            <Link to="/listingListView" className="active"><i className="fas fa-list" /></Link>
+                                            <Link to="/listingListView"><i className="fas fa-list" /></Link>
                                             <Link to="/listingGridView"><i className="fas fa-th" /></Link>
-                                            <Link to="/listingMapView"><i className="fas fa-map-marker-alt" /></Link>
+                                            <Link to="listingMaView" className="active"><i className="fas fa-map-marker-alt" /></Link>
                                         </div>
-                                        {/* swich close */}
+                                        {/* swicher close */}
                                     </div>
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 mb-4">
-                                        {/* select form start */}
+                                        {/* select start */}
                                         <select className="select2 form-control custom-select" id="search-hide">
                                             <option selected>Default</option>
                                             <option value={1}>Most Viewed</option>
                                             <option value={2}>Newest Listing</option>
                                             <option value={3}>Older Listing</option>
                                         </select>
-                                        {/* select form close */}
+                                        {/* select close */}
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        {/* listing block start */}
-                                        <div className="listing-block grid-listing">
-                                            <div className="listing-img">
-                                                <Link to="#"> <img src="./assets/images/listing-img-1.jpg" alt="" className="img-fluid" /></Link>
-                                                <div className="listing-badge">Featured</div>
-                                                <Link to="#" className="listing-category-badge badge-light-brose">
-                                                    Office Space
-                    </Link>
-                                                <div className="like-icon" />
-                                            </div>
-                                            <div className="listing-content">
-                                                <div className="listing-content-head">
-                                                    <h3 className="listing-content-head-title"> <Link to="#">Heading for Office Space Title</Link></h3>
-                                                    <p className="listing-content-head-text">Ahmedabad, Gujarat, India</p>
-                                                </div>
-                                                <div className="review-content-rating">
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star empty" />
-                                                    <Link to="#" className="rating-review">4.0</Link>
-                                                </div>
-                                                <div className="listing-content-meta">
-                                                    <div className="row">
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">Monthly</span> <br /> <span className="value">$2250</span>
-                                                        </div>
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">People</span> <br /> <span className="value">12</span>
-                                                        </div>
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">Sq.Ft</span> <br /> <span className="value">1200</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* listing block close */}
-                                    </div>
-                                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        {/* listing block start */}
-                                        <div className="listing-block grid-listing">
-                                            <div className="listing-img">
-                                                <Link to="#"> <img src="./assets/images/listing-img-2.jpg" alt="" className="img-fluid" /></Link>
-                                                <Link to="#" className="listing-category-badge badge-light-purple">
-                                                    Meeting Space
-                    </Link>
-                                                <div className="like-icon" />
-                                            </div>
-                                            <div className="listing-content">
-                                                <div className="listing-content-head">
-                                                    <h3 className="listing-content-head-title"> <Link to="#">Meeting Office Space Title</Link></h3>
-                                                    <p className="listing-content-head-text">Surat, Gujarat, India</p>
-                                                </div>
-                                                <div className="review-content-rating">
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star empty" />
-                                                    <span className="star empty" />
-                                                    <Link to="#" className="rating-review">5.0</Link>
-                                                </div>
-                                                <div className="listing-content-meta">
-                                                    <div className="row">
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">Hourly</span> <br /> <span className="value">$50</span>
-                                                        </div>
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">People</span> <br /> <span className="value">3</span>
-                                                        </div>
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">Sq.Ft</span> <br /> <span className="value">360</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* listing block close */}
-                                    </div>
-                                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        <div className="listing-block grid-listing">
-                                            <div className="listing-img">
-                                                <Link to="#"> <img src="./assets/images/listing-img-3.jpg" alt="" className="img-fluid" /></Link>
-                                                <Link to="#" className="listing-category-badge badge-light-orange">
-                                                    Coworking Space
-                    </Link>
-                                                <div className="like-icon" />
-                                            </div>
-                                            <div className="listing-content">
-                                                <div className="listing-content-head">
-                                                    <h3 className="listing-content-head-title"> <Link to="#">Coworking Office Space Title</Link></h3>
-                                                    <p className="listing-content-head-text">Vadodara, Gujarat, India</p>
-                                                </div>
-                                                <div className="review-content-rating">
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star half" />
-                                                    <span className="star empty" />
-                                                    <Link to="#" className="rating-review">4.5</Link>
-                                                </div>
-                                                <div className="listing-content-meta">
-                                                    <div className="row">
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">Weekly</span> <br /> <span className="value">$250</span>
-                                                        </div>
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">People</span> <br /> <span className="value">24</span>
-                                                        </div>
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">Sq.Ft</span> <br /> <span className="value">2200</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                                        {/* listing block start */}
-                                        <div className="listing-block grid-listing">
-                                            <div className="listing-img">
-                                                <Link to="#"> <img src="./assets/images/listing-img-1.jpg" alt="" className="img-fluid" /></Link>
-                                                <Link to="#" className="listing-category-badge badge-light-purple">
-                                                    Virtual Space
-                    </Link>
-                                                <div className="like-icon" />
-                                            </div>
-                                            <div className="listing-content">
-                                                <div className="listing-content-head">
-                                                    <h3 className="listing-content-head-title"> <Link to="#">Coworking Office Space Title</Link></h3>
-                                                    <p className="listing-content-head-text">Vadodara, Gujarat, India</p>
-                                                </div>
-                                                <div className="review-content-rating">
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star" />
-                                                    <span className="star half" />
-                                                    <span className="star empty" />
-                                                    <Link to="#" className="rating-review">4.5</Link>
-                                                </div>
-                                                <div className="listing-content-meta">
-                                                    <div className="row">
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">Weekly</span> <br /> <span className="value">$250</span>
-                                                        </div>
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">People</span> <br /> <span className="value">24</span>
-                                                        </div>
-                                                        <div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4">
-                                                            <span className="lable">Sq.Ft</span> <br /> <span className="value">2200</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/* listing block close */}
-                                    </div>
-                                    <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-3">
-                                        {/* pagination start */}
-                                        <nav aria-label="Page navigation example">
-                                            <ul className="pagination">
-                                                <li className="page-item"><Link className="page-link" to="#">Previous</Link></li>
-                                                <li className="page-item active"><Link className="page-link" to="#">1</Link></li>
-                                                <li className="page-item"><Link className="page-link" to="#">2</Link></li>
-                                                <li className="page-item"><Link className="page-link" to="#">3</Link></li>
-                                                <li className="page-item"><Link className="page-link" to="#">Next</Link></li>
-                                            </ul>
-                                        </nav>
-                                        {/* pagination close */}
+                                        <div id="map" className="listinghalfmap-map" />
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                                 <div className="filter-sidebar">
                                     <h3 className="filter-sidebar-title"><span className="filter-icon"><i className="fas fa-sliders-h" /></span>Filter</h3>
-                                    {/* filter widget start */}
+                                    {/* filter sidebar start */}
                                     <div className="filter-sidebar-widget">
-                                        <Link className="filter-title" data-toggle="collapse" to="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <Link to="filter-title" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                             Price <i className="fas fa-angle-down" />
                                         </Link>
                                         <div className="collapse show" id="collapseExample">
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck1" />
-                                                <label className="custom-control-label" htmlFor="customCheck1">$0 - $100
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck1">$0 - $100</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck2" />
-                                                <label className="custom-control-label" htmlFor="customCheck2">$100 - $200
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck2">$100 - $200</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck3" />
-                                                <label className="custom-control-label" htmlFor="customCheck3">$200 - $300
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck3">$200 - $300</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck4" />
-                                                <label className="custom-control-label" htmlFor="customCheck4">$300 - $400
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck4">$300 - $400</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck5" />
-                                                <label className="custom-control-label" htmlFor="customCheck5">$400 - $500
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck5">$400 - $500</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck6" />
-                                                <label className="custom-control-label" htmlFor="customCheck6">$500 - $600
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck6">$500 - $600</label>
                                             </div>
                                         </div>
                                     </div>
-                                    {/* filter widget close */}
-                                    {/* filter widget start */}
+                                    {/* filter sidebar close */}
+                                    {/* filter sidebar start */}
                                     <div className="filter-sidebar-widget">
-                                        <Link className="filter-title" data-toggle="collapse" to="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+                                        <Link to="filter-title" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
                                             Capacity <i className="fas fa-angle-down" />
                                         </Link>
                                         <div className="collapse show" id="collapseExample2">
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck7" />
-                                                <label className="custom-control-label" htmlFor="customCheck7">1 Person
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck7">1 Person</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck8" />
-                                                <label className="custom-control-label" htmlFor="customCheck8">2 - 5 Person
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck8">2 - 5 Person</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck9" />
-                                                <label className="custom-control-label" htmlFor="customCheck9">5 - 10 Person
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck9">5 - 10 Person</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck10" />
-                                                <label className="custom-control-label" htmlFor="customCheck10">10 - 15 Person
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck10">10 - 15 Person</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck11" />
-                                                <label className="custom-control-label" htmlFor="customCheck11">15 - 25 person
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck11">15 - 25 person</label>
                                             </div>
                                         </div>
                                     </div>
-                                    {/* filter widget close */}
-                                    {/* filter widget start */}
+                                    {/* filter sidebar close */}
+                                    {/* filter sidebar start */}
                                     <div className="filter-sidebar-widget">
-                                        <Link className="filter-title" data-toggle="collapse" to="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+                                        <Link to="filter-title" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
                                             Size <i className="fas fa-angle-down" />
                                         </Link>
                                         <div className="collapse show" id="collapseExample3">
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck12" />
-                                                <label className="custom-control-label" htmlFor="customCheck12">100 Sq.Ft
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck12">100 Sq.Ft</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck13" />
-                                                <label className="custom-control-label" htmlFor="customCheck13">100 Sq.Ft - 200 Sq.Ft
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck13">100 Sq.Ft - 200 Sq.Ft</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck14" />
-                                                <label className="custom-control-label" htmlFor="customCheck14">200 Sq.Ft - 300 Sq.Ft
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck14">200 Sq.Ft - 300 Sq.Ft</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck15" />
-                                                <label className="custom-control-label" htmlFor="customCheck15">300 Sq.Ft - 400 Sq.Ft
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck15">300 Sq.Ft - 400 Sq.Ft</label>
                                             </div>
                                             <div className="custom-control custom-checkbox">
                                                 <input type="checkbox" className="custom-control-input" id="customCheck16" />
-                                                <label className="custom-control-label" htmlFor="customCheck16">400 Sq.Ft - 500 Sq.Ft
-                    </label>
+                                                <label className="custom-control-label" htmlFor="customCheck16">400 Sq.Ft - 500 Sq.Ft</label>
                                             </div>
                                         </div>
                                     </div>
-                                    {/* filter widget close */}
-                                    {/* filter widget start */}
+                                    {/* filter sidebar close */}
+                                    {/* filter sidebar start */}
                                     <div className="filter-sidebar-widget mt-2">
                                         <Link to="#" className="btn btn-primary btn-block">Search</Link>
                                     </div>
-                                    {/* filter widget close */}
+                                    {/* filter sidebar close */}
                                 </div>
                             </div>
                         </div>
@@ -500,11 +313,9 @@ function ListingListView() {
                 </div>
                 {/* footer section close */}
             </div>
-            {/* end main wrapper */}
-            {/* ============================================================== */}
         </div>
 
     )
 }
 
-export default ListingListView
+export default ListingMapView

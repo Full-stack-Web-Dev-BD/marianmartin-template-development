@@ -40,100 +40,90 @@ function Navbar() {
                                                     <Link className="dropdown-link" to="/listingListView">Listing List View</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="listing-map-view.html">
+                                                    <Link className="dropdown-link" to="/listingMapView">
                                                         Listing Map View</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="listing-with-map.html">
+                                                    <Link className="dropdown-link" to="/lisgingWithMap">
                                                         Listing with half Map</Link>
                                                 </li>
-                                                <li className="dropdown-item"><Link className="dropdown-link" to="listing-location.html">
+                                                <li className="dropdown-item"><Link className="dropdown-link" to="/listingLocation">
                                                     Listing Location</Link>
                                                 </li>
-                                                <li className="dropdown-item"><Link className="dropdown-link" to="listing-categories.html">
+                                                <li className="dropdown-item"><Link className="dropdown-link" to="/listingCategories">
                                                     Listing Category</Link>
                                                 </li>
-                                                <li className="dropdown-item"><Link className="dropdown-link" to="listing-single.html">
+                                                <li className="dropdown-item"><Link className="dropdown-link" to="/ListingSingle">
                                                     Listing Single</Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to="#" id="menu-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Pages
-                    </Link>
+                                            <Link className="nav-link dropdown-toggle" to="#" id="menu-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</Link>
                                             <ul className="dropdown-menu" aria-labelledby="menu-3">
                                                 <li className="dropdown-item">
                                                     <Link className="dropdown-link" to="/about">
                                                         About us</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="pricing.html">
+                                                    <Link className="dropdown-link" to="/pricing">
                                                         Pricing</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="register-page.html">
+                                                    <Link className="dropdown-link" to="/register">
                                                         Register</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="login-page.html">
+                                                    <Link className="dropdown-link" to="/login">
                                                         Login</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="inquiry-form.html">
+                                                    <Link className="dropdown-link" to="/inquiryForm">
                                                         Inquiry Form</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="forget-password-page.html">
+                                                    <Link className="dropdown-link" to="/forgetPassword">
                                                         Forgot Password</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="reset-password-page.html">
+                                                    <Link className="dropdown-link" to="/resetPassword">
                                                         Reset Password</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="error-page.html">
+                                                    <Link className="dropdown-link" to="/error">
                                                         404 Error</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="contact.html">
+                                                    <Link className="dropdown-link" to="/contact">
                                                         Contact</Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to="#" id="menu-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                Blog
-                    </Link>
+                                            <Link className="nav-link dropdown-toggle" to="#" id="menu-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</Link>
                                             <ul className="dropdown-menu" aria-labelledby="menu-4">
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="blog.html">
+                                                    <Link className="dropdown-link" to="/blog">
                                                         Blog List</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="blog-thumbnail.html">
-                                                        Blog Thumbnail</Link>
+                                                    <Link className="dropdown-link" to="/blogThumbnail">Blog Thumbnail</Link>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="blog-single.html">
-                                                        Blog Single</Link>
+                                                    <Link className="dropdown-link" to="/blogSingle">Blog Single</Link>
                                                 </li>
                                             </ul>
                                         </li>
+                                        {/* <li className="nav-item">
+                                            <Link className="nav-link" to="./docs/index.html">Docs</Link>
+                                        </li> */}
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="./docs//">
-                                                Docs
-                    </Link>
-                                        </li>
-                                        <li className="nav-item">
-                                            <Link className="nav-link" to="dashboard-overview.html">
-                                                Dashboard
-                    </Link>
+                                            <Link className="nav-link" to="/dashboardOverview">Dashboard</Link>
                                         </li>
                                     </ul>
                                     <div className="header-btn d-xl-block d-lg-none">
-                                        <Link to="login-page.html" className="btn btn-outline-primary" data-toggle="modal" data-target="#loginmodal">Login</Link>
-                                        <Link to="inquiry-form.html" className="btn btn-primary"><i className="fas fa-plus" />List a space</Link>
+                                        <Link to="/login" className="btn btn-outline-primary" data-toggle="modal" data-target="#loginmodal">Login</Link>
+                                        <Link to="/inquiryForm" className="btn btn-primary"><i className="fas fa-plus" />List a space</Link>
                                     </div>
                                 </div>
                             </nav>
