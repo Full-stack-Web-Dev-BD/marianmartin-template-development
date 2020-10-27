@@ -122,7 +122,7 @@ function Navbar() {
                                         </li>
                                     </ul>
                                     <div className="header-btn d-xl-block d-lg-none">
-                                        <Link to="/login" className="btn btn-outline-primary" data-toggle="modal" data-target="#loginmodal">Login</Link>
+                                        <Link to="/login" className="btn btn-outline-primary" data-toggle="modal" data-target="#loginmodal" style={{marginRight:'10px'}}>Login</Link>
                                         <Link to="/inquiryForm" className="btn btn-primary"><i className="fas fa-plus" />List a space</Link>
                                     </div>
                                 </div>
