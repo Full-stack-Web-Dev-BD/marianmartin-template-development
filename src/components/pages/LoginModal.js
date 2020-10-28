@@ -38,7 +38,7 @@ function LoginModal() {
                                     </div>
                                 </div>
                                 <div className="login-form-footer">
-                                    <p className="login-form-footer-text">Don’t have a Spacely account?? <a href="/register">Create Account</a> and we’ll set you up so you can list your space.</p>
+                                    <p className="login-form-footer-text">Don’t have a Virtulab account?? <a href="/register">Create Account</a> and we’ll set you up so you can list your space.</p>
                                 </div>
                             </div>
                             {/* login form close */}

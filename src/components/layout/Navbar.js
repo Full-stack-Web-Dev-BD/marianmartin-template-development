@@ -10,7 +10,7 @@ function Navbar() {
                     <div className="row">
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                             <nav className="navbar navbar-expand-lg navbar-classic">
-                                <Link className="navbar-brand" to="/"> <img src="./assets/images/logo.png" alt="" /></Link>
+                                <a className="navbar-brand" href="/"> <img src="./assets/images/logo.png" alt="" /></a>
                                 <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-classic" aria-controls="navbar-classic" aria-expanded="false" aria-label="Toggle navigation">
                                     <span className="icon-bar top-bar mt-0" />
                                     <span className="icon-bar middle-bar" />
@@ -18,112 +18,116 @@ function Navbar() {
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbar-classic">
                                     <ul className="navbar-nav ml-auto mt-2 mt-lg-0 mr-3">
-                                        <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to="/" id="menu-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Homepage</Link>
+                                        {/* <li className="nav-item dropdown">
+                                            <a className="nav-link dropdown-toggle" href="/" id="menu-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Homepage</a>
                                             <ul className="dropdown-menu" aria-labelledby="menu-1">
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/">
-                                                        Homepage One</Link>
+                                                    <a className="dropdown-link" href="/">
+                                                        Homepage One</a>
                                                 </li>
-                                                <li className="dropdown-item"><Link className="dropdown-link" to="/">
-                                                    Homepage Two</Link>
+                                                <li className="dropdown-item"><a className="dropdown-link" href="/">
+                                                    Homepage Two</a>
                                                 </li>
                                             </ul>
                                         </li>
+                                         */}
+                                        <li className="nav-item">
+                                            <a className="nav-link" href="/">Homepage</a>
+                                        </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to="#" id="menu-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listing</Link>
+                                            <a className="nav-link dropdown-toggle" to="#" id="menu-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listing</a>
                                             <ul className="dropdown-menu" aria-labelledby="menu-2">
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/listingGridView">Listing List + Grid</Link>
+                                                    <a className="dropdown-link" href="/listingGridView">Listing List + Grid</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/listingListView">Listing List View</Link>
+                                                    <a className="dropdown-link" href="/listingListView">Listing List View</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/listingMapView">
-                                                        Listing Map View</Link>
+                                                    <a className="dropdown-link" href="/listingMapView">
+                                                        Listing Map View</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/lisgingWithMap">
-                                                        Listing with half Map</Link>
+                                                    <a className="dropdown-link" href="/lisgingWithMap">
+                                                        Listing with half Map</a>
                                                 </li>
-                                                <li className="dropdown-item"><Link className="dropdown-link" to="/listingLocation">
-                                                    Listing Location</Link>
+                                                <li className="dropdown-item"><a className="dropdown-link" href="/listingLocation">
+                                                    Listing Location</a>
                                                 </li>
-                                                <li className="dropdown-item"><Link className="dropdown-link" to="/listingCategories">
-                                                    Listing Category</Link>
+                                                <li className="dropdown-item"><a className="dropdown-link" href="/listingCategories">
+                                                    Listing Category</a>
                                                 </li>
-                                                <li className="dropdown-item"><Link className="dropdown-link" to="/ListingSingle">
-                                                    Listing Single</Link>
+                                                <li className="dropdown-item"><a className="dropdown-link" href="/ListingSingle">
+                                                    Listing Single</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to="#" id="menu-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</Link>
+                                            <a className="nav-link dropdown-toggle" to="#" id="menu-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
                                             <ul className="dropdown-menu" aria-labelledby="menu-3">
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/about">
-                                                        About us</Link>
+                                                    <a className="dropdown-link" href="/about">
+                                                        About us</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/pricing">
-                                                        Pricing</Link>
+                                                    <a className="dropdown-link" href="/pricing">
+                                                        Pricing</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/register">
-                                                        Register</Link>
+                                                    <a className="dropdown-link" href="/register">
+                                                        Register</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/login">
-                                                        Login</Link>
+                                                    <a className="dropdown-link" href="/login">
+                                                        Login</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/inquiryForm">
-                                                        Inquiry Form</Link>
+                                                    <a className="dropdown-link" href="/inquiryForm">
+                                                        Inquiry Form</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/forgetPassword">
-                                                        Forgot Password</Link>
+                                                    <a className="dropdown-link" href="/forgetPassword">
+                                                        Forgot Password</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/resetPassword">
-                                                        Reset Password</Link>
+                                                    <a className="dropdown-link" href="/resetPassword">
+                                                        Reset Password</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/error">
-                                                        404 Error</Link>
+                                                    <a className="dropdown-link" href="/error">
+                                                        404 Error</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/contact">
-                                                        Contact</Link>
+                                                    <a className="dropdown-link" href="/contact">
+                                                        Contact</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to="#" id="menu-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</Link>
+                                            <a className="nav-link dropdown-toggle" to="#" id="menu-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
                                             <ul className="dropdown-menu" aria-labelledby="menu-4">
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/blog">
-                                                        Blog List</Link>
+                                                    <a className="dropdown-link" href="/blog">
+                                                        Blog List</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/blogThumbnail">Blog Thumbnail</Link>
+                                                    <a className="dropdown-link" href="/blogThumbnail">Blog Thumbnail</a>
                                                 </li>
                                                 <li className="dropdown-item">
-                                                    <Link className="dropdown-link" to="/blogSingle">Blog Single</Link>
+                                                    <a className="dropdown-link" href="/blogSingle">Blog Single</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         {/* <li className="nav-item">
-                                            <Link className="nav-link" to="./docs/index.html">Docs</Link>
+                                            <a className="nav-link" to="./docs/index.html">Docs</a>
                                         </li> */}
                                         <li className="nav-item">
-                                            <Link className="nav-link" to="/dashboardOverview">Dashboard</Link>
+                                            <a className="nav-link" href="/dashboardOverview">Dashboard</a>
                                         </li>
                                     </ul>
                                     <div className="header-btn d-xl-block d-lg-none">
-                                        <Link to="/login" className="btn btn-outline-primary" data-toggle="modal" data-target="#loginmodal" style={{marginRight:'10px'}}>Login</Link>
-                                        <Link to="/inquiryForm" className="btn btn-primary"><i className="fas fa-plus" />List a space</Link>
+                                        <a href="/login" className="btn btn-outline-primary" data-toggle="modal" data-target="#loginmodal" style={{marginRight:'10px'}}>Login</a>
+                                        <a href="/inquiryForm" className="btn btn-primary"><i className="fas fa-plus" />List a space</a>
                                     </div>
                                 </div>
                             </nav>

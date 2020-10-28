@@ -99,7 +99,7 @@ function About() {
                                 {/* section heading  */}
                                 <div className="section-heading">
                                     <h2 className="section-heading-title">Let’s Meet The Team</h2>
-                                    <p>Spacely started with helping people build awesome projects. Each day our team continues <br />to grow more creators in the world to do that.</p>
+                                    <p>Virtulab started with helping people build awesome projects. Each day our team continues <br />to grow more creators in the world to do that.</p>
                                 </div>
                                 {/* section heading  */}
                             </div>

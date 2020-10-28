@@ -5,7 +5,6 @@ import Navbar from '../layout/Navbar'
 function Home() {
     return (
         <div>
-
             <div className="main-wrapper">
                 {/* header start */}
                 <Navbar />
@@ -111,7 +110,7 @@ function Home() {
                                                 <a href="#" className="btn btn-primary btn-lg">Search</a>
                                             </div>
                                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                                                <p className="hero-search-area-form-small-text">Top cities:<a href="listing-location.html"> New York</a>, <a href="listing-location.html">San Francisco</a>, <a href="listing-location.html">Los Angeles</a>, <a href="listing-location.html">Chicago</a>, <a href="listing-location.html">Houston</a></p>
+                                                <p className="hero-search-area-form-small-text">Top cities:<a href="/listingLocation"> New York</a>, <a href="/listingLocation">San Francisco</a>, <a href="/listingLocation">Los Angeles</a>, <a href="/listingLocation">Chicago</a>, <a href="/listingLocation">Houston</a></p>
                                             </div>
                                         </form>
                                     </div>
@@ -136,7 +135,7 @@ function Home() {
                         <div className="row">
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
                                 {/* space showcase start  */}
-                                <a href="listing-single.html" className="space-showcase-block">
+                                <a href="/ListingSingle" className="space-showcase-block">
                                     <div className="space-showcase-img zoom-img">
                                         <img src="./assets/images/space-img-1.jpg" alt="" className="img-fluid" />
                                     </div>
@@ -148,7 +147,7 @@ function Home() {
                             </div>
                             {/* space showcase start  */}
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                                <a href="listing-single.html" className="space-showcase-block">
+                                <a href="/ListingSingle" className="space-showcase-block">
                                     <div className="space-showcase-img zoom-img">
                                         <img src="./assets/images/space-img-2.jpg" alt="" className="img-fluid" />
                                     </div>
@@ -160,7 +159,7 @@ function Home() {
                             {/* space showcase close  */}
                             {/* space showcase start  */}
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                                <a href="listing-single.html" className="space-showcase-block">
+                                <a href="/ListingSingle" className="space-showcase-block">
                                     <div className="space-showcase-img zoom-img">
                                         <img src="./assets/images/space-img-3.jpg" alt="" className="img-fluid" />
                                     </div>
@@ -172,7 +171,7 @@ function Home() {
                             {/* space showcase close  */}
                             {/* space showcase start  */}
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                                <a href="listing-single.html" className="space-showcase-block">
+                                <a href="/ListingSingle" className="space-showcase-block">
                                     <div className="space-showcase-img zoom-img">
                                         <img src="./assets/images/space-img-4.jpg" alt="" className="img-fluid" />
                                     </div>
@@ -184,7 +183,7 @@ function Home() {
                             {/* space showcase close  */}
                             {/* space showcase start  */}
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                                <a href="listing-single.html" className="space-showcase-block">
+                                <a href="/ListingSingle" className="space-showcase-block">
                                     <div className="space-showcase-img zoom-img">
                                         <img src="./assets/images/space-img-5.jpg" alt="" className="img-fluid" />
                                     </div>
@@ -196,7 +195,7 @@ function Home() {
                             {/* space showcase close  */}
                             {/* space showcase start  */}
                             <div className="col-xl-2 col-lg-2 col-md-3 col-sm-6 col-6">
-                                <a href="listing-single.html" className="space-showcase-block">
+                                <a href="/ListingSingle" className="space-showcase-block">
                                     <div className="space-showcase-img zoom-img">
                                         <img src="./assets/images/space-img-6.jpg" alt="" className="img-fluid" />
                                     </div>
@@ -226,16 +225,16 @@ function Home() {
                                 {/* listing block start  */}
                                 <div className="listing-block">
                                     <div className="listing-img">
-                                        <a href="listing-single.html"> <img src="./assets/images/listing-img-1.jpg" alt="" className="img-fluid" /></a>
+                                        <a href="/ListingSingle"> <img src="./assets/images/listing-img-1.jpg" alt="" className="img-fluid" /></a>
                                         <div className="listing-badge">Featured</div>
-                                        <a href="listing-single.html" className="listing-category-badge badge-light-brose">
+                                        <a href="/ListingSingle" className="listing-category-badge badge-light-brose">
                                             Office Space
                 </a>
                                         <div className="like-icon" />
                                     </div>
                                     <div className="listing-content">
                                         <div className="listing-content-head">
-                                            <h3 className="listing-content-head-title"> <a href="listing-single.html">Heading for Office Space Title</a></h3>
+                                            <h3 className="listing-content-head-title"> <a href="/ListingSingle">Heading for Office Space Title</a></h3>
                                             <p className="listing-content-head-text">Ahmedabad, Gujarat, India</p>
                                         </div>
                                         <div className="review-content-rating">
@@ -244,7 +243,7 @@ function Home() {
                                             <span className="star" />
                                             <span className="star" />
                                             <span className="star empty" />
-                                            <a href="listing-single.html" className="rating-review">4.0</a>
+                                            <a href="/ListingSingle" className="rating-review">4.0</a>
                                         </div>
                                         <div className="listing-content-meta">
                                             <div className="row">
@@ -267,15 +266,15 @@ function Home() {
                                 {/* listing block start  */}
                                 <div className="listing-block">
                                     <div className="listing-img">
-                                        <a href="listing-single.html"> <img src="./assets/images/listing-img-2.jpg" alt="" className="img-fluid" /></a>
-                                        <a href="listing-single.html" className="listing-category-badge badge-light-orange">
+                                        <a href="/ListingSingle"> <img src="./assets/images/listing-img-2.jpg" alt="" className="img-fluid" /></a>
+                                        <a href="/ListingSingle" className="listing-category-badge badge-light-orange">
                                             Meeting Space
                 </a>
                                         <div className="like-icon" />
                                     </div>
                                     <div className="listing-content">
                                         <div className="listing-content-head">
-                                            <h3 className="listing-content-head-title"> <a href="listing-single.html">Meeting Office Space Title</a></h3>
+                                            <h3 className="listing-content-head-title"> <a href="/ListingSingle">Meeting Office Space Title</a></h3>
                                             <p className="listing-content-head-text">Surat, Gujarat, India</p>
                                         </div>
                                         <div className="review-content-rating">
@@ -284,7 +283,7 @@ function Home() {
                                             <span className="star" />
                                             <span className="star empty" />
                                             <span className="star empty" />
-                                            <a href="listing-single.html" className="rating-review">5.0</a>
+                                            <a href="/ListingSingle" className="rating-review">5.0</a>
                                         </div>
                                         <div className="listing-content-meta">
                                             <div className="row">
@@ -307,15 +306,15 @@ function Home() {
                                 {/* listing block start  */}
                                 <div className="listing-block">
                                     <div className="listing-img">
-                                        <a href="listing-single.html"> <img src="./assets/images/listing-img-3.jpg" alt="" className="img-fluid" /></a>
-                                        <a href="listing-single.html" className="listing-category-badge badge-light-purple">
+                                        <a href="/ListingSingle"> <img src="./assets/images/listing-img-3.jpg" alt="" className="img-fluid" /></a>
+                                        <a href="/ListingSingle" className="listing-category-badge badge-light-purple">
                                             Coworking Space
                 </a>
                                         <div className="like-icon" />
                                     </div>
                                     <div className="listing-content">
                                         <div className="listing-content-head">
-                                            <h3 className="listing-content-head-title"> <a href="listing-single.html">Coworking Office Space Title</a></h3>
+                                            <h3 className="listing-content-head-title"> <a href="/ListingSingle">Coworking Office Space Title</a></h3>
                                             <p className="listing-content-head-text">Vadodara, Gujarat, India</p>
                                         </div>
                                         <div className="review-content-rating">
@@ -324,7 +323,7 @@ function Home() {
                                             <span className="star" />
                                             <span className="star half" />
                                             <span className="star empty" />
-                                            <a href="listing-single.html" className="rating-review">4.5</a>
+                                            <a href="/ListingSingle" className="rating-review">4.5</a>
                                         </div>
                                         <div className="listing-content-meta">
                                             <div className="row">
@@ -344,7 +343,7 @@ function Home() {
                                 {/* listing block close  */}
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-3">
-                                <a href="listing-categories.html" className="btn btn-outline-primary">Browse all space</a>
+                                <a href="/listingCategories" className="btn btn-outline-primary">Browse all space</a>
                             </div>
                         </div>
                     </div>
@@ -371,7 +370,7 @@ function Home() {
                                             <img src="./assets/images/location-map.png" alt="" />
                                         </div>
                                         <h3 className="process-content-title">List your space</h3>
-                                        <p>It takes no longer than 15 minutes to list your space on spacely. Our user friendly onboarding process! </p>
+                                        <p>It takes no longer than 15 minutes to list your space on Virtulab. Our user friendly onboarding process! </p>
                                     </div>
                                 </div>
                                 {/* process block close  */}
@@ -399,13 +398,13 @@ function Home() {
                                             <img src="./assets/images/money-icon.png" alt="" />
                                         </div>
                                         <h3 className="process-content-title">Earn money</h3>
-                                        <p>Orders coming from spacely are 100% prepaid. We will bring you not just leads but new clients.</p>
+                                        <p>Orders coming from Virtulab are 100% prepaid. We will bring you not just leads but new clients.</p>
                                     </div>
                                 </div>
                                 {/* process block close  */}
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-5">
-                                <a href="register-page.html" className="btn btn-outline-primary">List your space</a>
+                                <a href="/register" className="btn btn-outline-primary">List your space</a>
                             </div>
                         </div>
                     </div>

@@ -180,7 +180,7 @@ const ForgetPassword = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                    <p className="tiny-footer-text">Copyright © 2020 Spacely Companies Inc. All rights reserved</p>
+                                    <p className="tiny-footer-text">Copyright © 2020 Virtulab Companies Inc. All rights reserved</p>
                                 </div>
                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div className="tiny-footer-links">
@@ -235,7 +235,7 @@ const ForgetPassword = () => {
                                     </div>
                                 </div>
                                 <div className="login-form-footer">
-                                    <p className="login-form-footer-text">Don’t have a Spacely account? <a href="/register">Create Account</a> and we’ll set you up so you can list your space.</p>
+                                    <p className="login-form-footer-text">Don’t have a Virtulab account? <a href="/register">Create Account</a> and we’ll set you up so you can list your space.</p>
                                 </div>
                             </div>
                             {/* login form close */}

@@ -28,7 +28,7 @@ const ListingLocation = () => {
                             <div className="custom-breadcrumb">
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">
-                                        <li className="breadcrumb-item"><Link to="index.html">Home</Link></li>
+                                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
                                         <li className="breadcrumb-item active">Listing Locations</li>
                                     </ol>
                                 </nav>
@@ -283,7 +283,7 @@ const ListingLocation = () => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
-                                    <p className="tiny-footer-text">Copyright © 2020 Spacely Companies Inc. All rights reserved</p>
+                                    <p className="tiny-footer-text">Copyright © 2020 Virtulab Companies Inc. All rights reserved</p>
                                 </div>
                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div className="tiny-footer-links">
